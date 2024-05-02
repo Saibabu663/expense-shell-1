@@ -34,6 +34,9 @@ unzip /tmp/backend.zip  &>>$LOGFILE
 
 npm install  &>>$LOGFILE
 
+
+
+
 #check your repo and path
 cp /home/ec2-user/expense-shell-1/backend.service /etc/systemd/system/backend.service
 
